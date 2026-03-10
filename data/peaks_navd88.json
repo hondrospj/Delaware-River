@@ -3,11 +3,26 @@
   "datum": "NAVD88",
   "peakMinSepMinutes": 300,
   "thresholdsNAVD88": {
-    "minorLow": 5.10,
-    "moderateLow": 6.10,
-    "majorLow": 7.10
+    "minorLow": 5.1,
+    "moderateLow": 6.1,
+    "majorLow": 7.1
   },
   "method": "crest_anchored_highs_v1",
-  "lastProcessedISO": "2026-03-10T22:42:00.000Z",
-  "events": []
+  "lastProcessedISO": "2026-03-10T23:12:00.000Z",
+  "events": [
+    {
+      "t": "2026-03-10T10:54:00.000Z",
+      "ft": 3.819,
+      "type": "Below",
+      "crest": "2026-03-10T11:13:00.000Z",
+      "kind": "CrestHigh"
+    },
+    {
+      "t": "2026-03-10T23:12:00.000Z",
+      "ft": 3.026,
+      "type": "Below",
+      "crest": "2026-03-10T23:51:00.000Z",
+      "kind": "CrestHigh"
+    }
+  ]
 }
